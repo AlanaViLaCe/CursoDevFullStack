@@ -37,3 +37,43 @@ git add e commit
 
 git config user.name "Alana" (Só configura o nome - fazer antes do commit não é autentificação)
 git config user.email "avlcerqueira@gmail.com"
+
+ORDEM: Sempre olhar se está abrindo o terminal no local/pasta correto/a!
+git init
+git status
+git add .
+git commit -m "texto"
+git push ou git push origin (main/nome-da-branch)
+git pull ou git pull origin (main/nome-da-branch)
+git checkout ou git checkout -b (quando for criar nova branch junto + nome da branch)
+git merge
+clear
+
+OUTROS
+git -version (versão atual do git instalado)
+git branch -M main (mudar para a main)
+git config --global user.name "nome"
+git config --global user.email "email"
+git log (verifica quem/quando fez alterações)
+git remote add origin (adicionar a pasta na primeira vez ao repositório)
+git remote -v (verificar o repositório informado)
+git push -u origin master (publicar as alterações no repositório remoto)
+**git clone
+**git branch ou git branch -b (quando for criar nova branch junto + nome da branch)
+**git tag
+**git show
+
+ATALHOS
+shift + insert
+
+
+
+
+MELD:
+Depois de instalá-lo http://sourceforge.net/projects/meld-installer/
+Eu tive que dizer ao git onde estava:
+git config --global merge.tool meld
+git config --global diff.tool meld
+git config --global mergetool.meld.path “C:\Program Files (x86)\Meld\meld\meld.exe”
+
+E isso parece funcionar. Ambos mesclando e diferindo com “git difftool” ou “git mergetool”
