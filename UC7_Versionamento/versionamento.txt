@@ -1,0 +1,39 @@
+A<main>
+
+Git Bash Here/ VS Code/ CMD -> Consigo abrir  em qualquer terminal de console com os mesmos comandos.
+
+Quando abrir o repositório verificar se estou na pasta certa/ terminal certo.
+
+git --version
+
+Instalar - Atenção Branch Main
+git init (1ª vez que criei a pasta no PC)
+git status (como estão os arquivos)
+git add nomedoarquivo ou . (tudo).
+git commit - m "digitar o que quiser" (abre um terminal ja adicionando a mensagem)
+
+Criar repositório online
+git remote  add origin linkdorepositorioonline (origin = nome do repositório atalho: shift insert)
+
+git remote -v (mostrar em qual repositório está ligado)
+git push origin main (enviar para a nuvem)
+git log (mostrar os commit que foram feitos)
+
+git clone linkdorepositorionuvem
+git pull origin main (puxar do repositório online para o repositório local).
+
+Cria repositório com estrutura base na main, todos fazem o clone e criam as branchs a partir disso.
+
+git branch Develop (ou outro nome que tenha ligação com o que está sendo desenvolvido e não do desenvolvedor)
+git branch (fala quais as branch)
+git checkout nomedabranch (troca de branches).
+git fetch (atualiza o Pc com as branches)
+
+git branch -a (mostra as branches remotas que não estão no PC).
+
+Estar na branch que quero puxar.
+$ git merge origin/nome (juntar duas branches)
+git add e commit
+
+git config user.name "Alana" (Só configura o nome - fazer antes do commit não é autentificação)
+git config user.email "avlcerqueira@gmail.com"
