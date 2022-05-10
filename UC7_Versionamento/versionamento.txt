@@ -59,8 +59,10 @@ git remote add origin (adicionar a pasta na primeira vez ao repositório)
 git remote -v (verificar o repositório informado)
 git push -u origin master (publicar as alterações no repositório remoto)
 git reset --hard (id do commit - encontra no git log)
-**git clone
-**git branch ou git branch -b (quando for criar nova branch junto + nome da branch)
+git fetch (mostra se foram criadas outras branches)
+git clone (nome do repositório)
+git branch ou git branch -b (quando for criar nova branch junto + nome da branch)
+git branch -a (quais branches nosso pc reconhece)
 **git tag
 **git show
 
