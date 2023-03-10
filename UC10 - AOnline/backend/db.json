@@ -1,0 +1,27 @@
+{
+  "login": [
+    {
+      "id": 1,
+      "usuario": "Alana Vitória",
+      "senha": "admin"
+    },
+    {
+      "id": 2,
+      "usuario": "Carlos Eduardo",
+      "senha": "admin123"
+    },
+    {
+      "id": 4
+    },
+    {
+      "usuário": "Leonardo Brasil",
+      "senha": "senha123",
+      "id": 5
+    },
+    {
+      "usuário": "Alana Vitória",
+      "senha": "senha123",
+      "id": 6
+    }
+  ]
+}

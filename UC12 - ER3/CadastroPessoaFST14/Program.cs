@@ -2,8 +2,8 @@
 
 PessoaFisica novaPf = new PessoaFisica();
 
-novaPf.nome = "Odirlei";
-novaPf.cpf = "1234567890";
+novaPf.nome = "Alana";
+novaPf.cpf = "42233058836";
 novaPf.rendimento = 3590.5f;
 
 // Console.WriteLine(novaPf.nome);
